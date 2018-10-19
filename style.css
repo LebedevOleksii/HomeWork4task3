@@ -1,0 +1,40 @@
+
+.text {
+    display: inline-block;
+    font: 3em Tahoma;
+    color: rgb(205, 35, 228);
+    margin: 300px 470px;
+    
+}
+.text:hover {
+    animation-name: bounce;
+    animation-duration: .8s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+}
+
+@keyframes bounce {
+    0% {
+        margin: 300px 470px;
+    }
+    45% {
+        margin: 265px 470px;
+    }
+    60% {
+        margin: 260px 470px;
+    }
+    70% {
+        margin: 300px 470px;
+    }
+    80% {
+        margin: 285px 470px;
+    }
+    95% {
+        margin: 285px 470px;
+    }
+    97% {
+        margin: 301px 470px;
+    }
+    100% {
+        margin: 300px 470px;
+    }
