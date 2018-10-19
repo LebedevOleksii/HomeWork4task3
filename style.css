@@ -4,6 +4,7 @@
     font: 3em Tahoma;
     color: rgb(205, 35, 228);
     margin: 300px 470px;
+    text-shadow: 0px 3px 2px rgba(150, 150, 150, 0.91);
     
 }
 .text:hover {
@@ -16,25 +17,33 @@
 @keyframes bounce {
     0% {
         margin: 300px 470px;
+        text-shadow: 0px 2px 2px rgba(150, 150, 150, 1); 
     }
     45% {
-        margin: 265px 470px;
+        margin: 265px 470px; 
+        text-shadow: -6px 31px 10px rgba(150, 150, 150, 0.84);
     }
     60% {
         margin: 260px 470px;
+        text-shadow: -7px 38px 13px rgba(150, 150, 150, 0.78);
     }
     70% {
         margin: 300px 470px;
+        text-shadow: 0px 2px 2px rgba(150, 150, 150, 1); 
     }
     80% {
         margin: 285px 470px;
+        text-shadow: -3px 14px 5px rgba(150, 150, 150, 0.88);
     }
     95% {
         margin: 285px 470px;
+        text-shadow: -3px 14px 5px rgba(150, 150, 150, 0.88);
     }
     97% {
         margin: 301px 470px;
+        text-shadow: 0px 2px 2px rgba(150, 150, 150, 1);
     }
     100% {
         margin: 300px 470px;
+        text-shadow: 0px 2px 2px rgba(150, 150, 150, 1);
     }
